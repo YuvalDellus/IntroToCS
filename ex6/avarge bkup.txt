@@ -1,0 +1,19 @@
+def average(image):
+    img_height = len(image)
+    img_width = len(image[0])
+    total = [0, 0, 0]
+    number_of_pixels = img_width * img_height
+
+    # for i in range(0, img_height, 2):
+    #     for j in range(0, img_width, 2):
+    #         c= compare_pixel(image[i][j], image[i+1][j+1])
+    for i in range(img_height-1):
+        for j in range(img_width-1):
+            # print(image[i][j])
+            for k in range(len(image[i][j])):
+                total[k] += image[i][j][k]
+
+    for i in range(len(total)):
+        total[i] /= number_of_pixels
+
+    return tuple(total)

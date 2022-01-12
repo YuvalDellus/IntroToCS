@@ -1,0 +1,39 @@
+yuval_dellus
+305211880
+Yuval Dellus
+
+I discussed the exercise with: Adi cogan
+
+=============================
+=  README for ex10: WikiNetwork  =
+=============================
+
+
+==================
+=  Description:  =
+==================
+
+A program that build a Wikipedia-like network and mange it, the user able to
+add new articles and serch diffrent information on articles like the path they
+can form and all the neighbors in given depth.
+
+Page Rank - 'United_States', 'France', 'Europe'.
+
+Jaccard index -
+
+    The_Simpson - Tuvalu
+    The_Lord_of_the_Rings - J._R._R._Tolkien
+    The_Godfather - Citizen_Kane
+    Louis_XIV_of_Franc - William_III_of_England
+
+ Travel by depth -
+
+    United_States - 6.439641999563414 %
+    United_States_dollar - 20.039292730844792 %
+    Microsoft - 55.27177472167649 %
+
+
+======================
+=  Special Comments  =
+======================
+

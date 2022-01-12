@@ -1,0 +1,27 @@
+yuval_dellus
+305211880
+Yuval Dellus
+
+I discussed the exercise with: avital werzberger, Adi Cogan
+
+=============================
+=  README for ex6: mosaic  =
+=============================
+
+
+==================
+=  Description:  =
+==================
+
+A program that takes an image from the user and uses a list of tiles to make
+mosaic from the original image, the program uses number of steps to make the
+mosaic as efficient and similar to the original image.
+by finding the average colour of each tile and comparing it to the colour of
+each piece from the image we able to set the best piece to the right place.
+to speed up the process we pre-processing all the tiles and saves their average
+colour.
+
+======================
+=  Special Comments  =
+======================
+

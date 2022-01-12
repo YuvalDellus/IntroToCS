@@ -1,0 +1,32 @@
+yuval_dellus
+305211880
+Yuval Dellus
+
+I discussed the exercise with: --------
+
+=============================
+=  README for ex8: Ships Game  =
+=============================
+
+
+==================
+=  Description:  =
+==================
+
+A program that runs the Ships Game, in the game there are several ships on the
+board, and by choosing coordinates to bomb the use can try and terminate the
+ships, the game over when all the ships are terminated.
+the program was written as OOP program, using two main classes, Ship class and
+Game class.
+
+The ship class responsible and manage all the ships, how they move, when they
+hit, when they terminated and so, each ship is it's own object and contain all
+the data it's need.
+
+The Game class mange all the actual game, let the user to drop a bomb, tell all
+the ships to move and print to the user the board game.
+
+======================
+=  Special Comments  =
+======================
+

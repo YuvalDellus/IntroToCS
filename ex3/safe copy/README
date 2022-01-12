@@ -1,0 +1,28 @@
+Yuval Dellus
+305211880
+yuval_dellus
+
+
+=============================
+=  README for ex2: conditions  =
+=============================
+
+
+==================
+=  Description:  =
+==================
+
+A program that do:
+
+1) Convert one measurement to another
+2) Do simple mathematical manipulations
+3) Returns the largest and smallest of three numbers
+4) Gives the answer of the root equation by user input
+5) Gives the area for a given shape base on user input
+6) Calculate the BMI and return if it's in the health range or not
+
+
+
+======================
+=  Special Comments  =
+======================

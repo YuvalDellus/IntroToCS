@@ -1,0 +1,27 @@
+yuval_dellus
+305211880
+Yuval Dellus
+
+avitalwerz
+205506397
+Avital Werzberger
+
+I discussed the exercise with: --------
+
+=============================
+=  README for ex5: virtual store  =
+=============================
+
+
+==================
+=  Description:  =
+==================
+at this program we built a virtual store which know to draw information and
+details from xml file such us given by the ministry of economy and let the
+user to compare the cheapest basket s/he can buy in one of the stores.
+in addition, the user able to save and load baskets from his own creation.
+
+
+======================
+=  Special Comments  =
+======================

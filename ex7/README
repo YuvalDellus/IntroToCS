@@ -1,0 +1,29 @@
+yuval_dellus
+305211880
+Yuval Dellus
+
+I discussed the exercise with: --------
+
+=============================
+=  README for ex7: Recursive  =
+=============================
+
+
+==================
+=  Description:  =
+==================
+
+A program that takes different tasks and find the recursive solution to them.
+the program have to parts:
+In the first part we execute 5 function that use simple recursion,
+the functions call themselves and by doing that on smaller and smaller inputs
+find the solution.
+The second part of the program is function the execute the recursive idea, but
+use assist function to do so, they take the input and slightly manipulate it
+or generate more information from it and send all to othen function to help
+answer the task.
+
+======================
+=  Special Comments  =
+======================
+

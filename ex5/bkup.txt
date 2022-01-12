@@ -1,0 +1,27 @@
+    tree = ET.parse(filename)
+    root = tree.getroot()
+    stord_Id = root.find("StoreId").text
+    element = root.find("Items")
+    items = element.findall("Item")
+    my_item = dict()
+    store_contain = dict()
+    for item in items:
+        for detail in item:
+            my_item[detail.tag] = detail.text
+        store_contain[item.find("ItemCode").text] = my_item
+        my_item = dict()
+    return stord_Id, store_contain
+
+
+
+    prices = list()
+    for code in basket:
+        print(code)
+        print(store_db["UnitQty"])
+        if int(code) in store_db:# and code in store_db[code]["ItemCode"]:
+            prices.append(float(store_db[code]["ItemPrice"]))
+            print(store_db["ItemCode"])
+        else:
+            prices.append(None)
+    # print(prices)
+    return prices

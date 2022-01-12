@@ -1,0 +1,34 @@
+Yuval Dellus
+305211880
+yuval_dellus
+
+
+discussed with : Avital Werzberger
+
+=============================
+=  README for ex4: hangman  =
+=============================
+
+
+
+==================
+=  Description:  =
+==================
+
+A program that allow you th play the "hangman" game by python.
+using several techniques such as filtering threw complex expiration, sorting
+by dictionary, comparison between strings and more.
+
+
+======================
+=  Special Comments  =
+======================
+
+The program is fully capable to be played in Hebrew, the only things you need
+to do is change the encoding type in the load_words function in the
+hangman_helper and change the restricts of the non valid letters in the hangman
+program to those which not accept non-hebrew letters,
+
+len(letter) != 1 or not (ord("א") <= ord(str(letter)) <= ord("ת"))
+
+works fine in my computer

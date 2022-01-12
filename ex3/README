@@ -1,0 +1,64 @@
+Yuval Dellus
+305211880
+yuval_dellus
+
+
+discussed with : ---------
+
+=============================
+=  README for ex2: loops  =
+=============================
+
+create_list
+concat_list
+average
+cyclic
+histogram
+prime_factors
+cartesian
+pairs
+
+==================
+=  Description:  =
+==================
+
+1) create_list - convert strings from user input to a list.
+2) concat_list - convert list to a string.
+3) average - do average to all numbers in a list.
+4) cyclic - determine if a list is cyclic of a given list.
+5) histogram - generating the histogram of a given list.
+6) prime_factors - calculate the prime factors of a number.
+7) cartesian - generates cartesian product of 2 give lists.
+8) pairs - checks if addition of 2 numbers in a list can equal
+           to a given number.
+
+
+======================
+=  Special Comments  =
+======================
+
+1. cyclic('abcd','bcda') -
+The program will crush in that case cause the comparision part of the function
+ is done by list manipulation, and the argument we given is from string type.
+ if the two argument were equal we would get the a True as return.
+
+ 2. histogram(3,[1,2,3,4]) -
+The program will crush from 2 reasons:
+first, we given n', parameter that determine the length of the histogram, that
+is is smaller than the length of the numbers list we given. at this situation
+we wont have enough place in the histogram to contain all the numbers indexes.
+ second, even if the n' parameter was equal by length, we wont have enough
+ place in the histogram because we save place for the number 0 at the index 0,
+ which the histogram start with.
+
+ 3. prime_factors(0) -
+The program will return "[]", that because it's the initial list of prime
+factors of any given number. The code start to fill the list on primes factors
+by running on a loop in range of sqrt of the number, sqrt of 0 is 0 therefor
+the loop won't run and the list wo'nt fill.
+
+4. pairs(2,[0,0,1,1,2,2]) -
+The code will return "[[0, 2], [0, 2], [0, 2], [0, 2]]", because the numbers
+ are double and it will on 0 twice and on 2 twice. it won't return "[1, 1]"
+ because I made a check to ensure that the list won't run on itself on same
+ number.
